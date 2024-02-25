@@ -5,20 +5,20 @@
 class Cobracli < Formula
   desc ""
   homepage "https://github.com/bishal7679/Cobra-CLI/"
-  version "0.2.1-next"
+  version "0.2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.1-next_darwin_arm64.zip"
-      sha256 "98fae2150f06599c0f1b8c89ed1497ba0e1b7af0e2912a047b81419843e6b2ae"
+      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.0_darwin_arm64.zip"
+      sha256 "fbdd47a8f1e81f5b246451ea3481ae26fc5e77bce2c59fdb8427c1e75255bf53"
 
       def install
         bin.install "cobracli"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.1-next_darwin_amd64.zip"
-      sha256 "db8142191c4391e150179ac717274b8e61284d772e3a5860464ad5e2d32ba1b5"
+      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.0_darwin_amd64.zip"
+      sha256 "d11e85bd1a202e629d0ca0b0256f63bec491a20113fd7ebd0c7c2a19006de51d"
 
       def install
         bin.install "cobracli"
@@ -28,16 +28,16 @@ class Cobracli < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.1-next_linux_arm64.zip"
-      sha256 "0d23874691b25c57fbf24a0584a05dbd11028270ef20e6086ebc8af555e7d75a"
+      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.0_linux_arm64.zip"
+      sha256 "6e9c7802a548b175610d0f5b998105ef60735eb8f62e2702d49eb80d3ad9ac10"
 
       def install
         bin.install "cobracli"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.1-next_linux_amd64.zip"
-      sha256 "31a163e4c5d60b1d79a8fa8007bc78909271abb5397ba3e701dfba6e44a8fb08"
+      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.0_linux_amd64.zip"
+      sha256 "a99b449475b580c47c7ad12d1b6b5bf706506566452298db7fa7ea21b46971a2"
 
       def install
         bin.install "cobracli"
