@@ -37,7 +37,7 @@ class Cobracli < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.0_linux_amd64.zip"
-      sha256 "a99b449475b580c47c7ad12d1b6b5bf706506566452298db7fa7ea21b46971a2"
+      sha256 "e7b9a622b922c4ec0c4eeffbcaf3a90937c71d317587b5be92e1c1728a7ea5f1"
 
       def install
         bin.install "cobracli"
