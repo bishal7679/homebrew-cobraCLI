@@ -9,7 +9,7 @@ class Cobracli < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.1-next_darwin_arm64.zip"
+      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.0_darwin_arm64.zip"
       sha256 "98fae2150f06599c0f1b8c89ed1497ba0e1b7af0e2912a047b81419843e6b2ae"
 
       def install
@@ -17,7 +17,7 @@ class Cobracli < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.1-next_darwin_amd64.zip"
+      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.0_darwin_amd64.zip"
       sha256 "db8142191c4391e150179ac717274b8e61284d772e3a5860464ad5e2d32ba1b5"
 
       def install
@@ -28,7 +28,7 @@ class Cobracli < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.1-next_linux_arm64.zip"
+      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.0_linux_arm64.zip"
       sha256 "0d23874691b25c57fbf24a0584a05dbd11028270ef20e6086ebc8af555e7d75a"
 
       def install
@@ -36,7 +36,7 @@ class Cobracli < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.1-next_linux_amd64.zip"
+      url "https://github.com/bishal7679/Cobra-CLI/releases/download/v0.2.0/cobra-cli_0.2.0_linux_amd64.zip"
       sha256 "31a163e4c5d60b1d79a8fa8007bc78909271abb5397ba3e701dfba6e44a8fb08"
 
       def install
